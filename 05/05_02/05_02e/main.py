@@ -8,3 +8,5 @@ printer_queue.append("Proof.png")
 while len(printer_queue) > 0:
     document = printer_queue.popleft()
     print(f'Printing {document}')
+
+print(printer_queue)
